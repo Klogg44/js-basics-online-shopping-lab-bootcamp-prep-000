@@ -58,5 +58,6 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
+addToCart("fish")
 
-ls
+viewCart()
