@@ -59,9 +59,6 @@ function placeOrder(cardNumber) {
 
 addToCart("fish")
 addToCart("apple")
+viewCart()
 
-console.log(viewCart())
 
-console.log(removeFromCart("eggs"))
-
-console.log(viewCart())
