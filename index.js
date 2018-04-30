@@ -44,7 +44,6 @@ function total() {
 
 function removeFromCart(item) {
   for (let i=0; i<cart.length; i++) {
-    console.log(cart[i].itemName)
     if (cart[i].itemName === item) {
       cart.splice(i,1)
       return
@@ -55,14 +54,16 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   if (cardNumber) {
-    console.log("Worked")
+    let cost = total()
+    cart = []
+    return `Your total cost is $${cost}, which will be charged to the card ${cardNumber}.`
   } else {
-    console.log("Nope")
+    console.log("Sorry, we don't have a credit card on file for you.")
   }
 }
 
 addToCart("fish")
 addToCart("apple")
 console.log(viewCart())
- placeOrder()
+placeOrder()
 
