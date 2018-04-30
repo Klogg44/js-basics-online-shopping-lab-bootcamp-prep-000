@@ -47,7 +47,7 @@ function removeFromCart(item) {
     console.log(cart[i].itemName)
     if (cart[i].itemName === item) {
       console.log("Match")
-      // cart.splice(i,1)
+      cart.splice(i,1)
     } else {
       console.log("No Match")
     }
