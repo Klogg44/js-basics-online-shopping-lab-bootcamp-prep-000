@@ -62,6 +62,6 @@ addToCart("apple")
 
 console.log(viewCart())
 
-removeFromCart("eggs")
+console.log(removeFromCart("eggs"))
 
 console.log(viewCart())
