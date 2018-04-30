@@ -32,7 +32,6 @@ function viewCart() {
   } else {
     return 'Your shopping cart is empty.'
   }
-  // write your code here
 }
 
 function total() {
