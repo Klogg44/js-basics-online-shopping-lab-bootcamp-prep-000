@@ -48,11 +48,10 @@ function removeFromCart(item) {
     if (cart[i].itemName === item) {
       console.log("Match")
       // cart.splice(i,1)
-      return
     } else {
       console.log("No Match")
-      return
     }
+    return
   }
 }
 
