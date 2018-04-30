@@ -54,7 +54,11 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  
+  if (cardNumber) {
+    console.log("Worked")
+  } else {
+    console.log("Nope")
+  }
 }
 
 addToCart("fish")
