@@ -61,9 +61,3 @@ function placeOrder(cardNumber) {
     return "Sorry, we don't have a credit card on file for you."
   }
 }
-
-addToCart("fish")
-addToCart("apple")
-console.log(viewCart())
-console.log(placeOrder(12345))
-
