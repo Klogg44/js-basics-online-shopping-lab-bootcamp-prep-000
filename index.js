@@ -63,6 +63,6 @@ function placeOrder(cardNumber) {
 
 addToCart("fish")
 addToCart("apple")
-viewCart()
+console.log(viewCart())
 
 
