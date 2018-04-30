@@ -61,6 +61,8 @@ function placeOrder(cardNumber) {
 addToCart("fish")
 addToCart("apple")
 
+console.log(viewCart())
+
 removeFromCart("apple")
 
 console.log(viewCart())
