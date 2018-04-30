@@ -45,14 +45,14 @@ function total() {
 function removeFromCart(item) {
   for (let i=0; i<cart.length; i++) {
     console.log(cart[i].itemName)
-    /*
     if (cart[i].itemName === item) {
-      cart.splice(i,1)
+      console.log("Match")
+      // cart.splice(i,1)
       return
     } else {
-      return 'That item is not in your cart.'
+      console.log("No Match")
+      return
     }
-    */
   }
 }
 
