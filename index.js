@@ -65,5 +65,5 @@ function placeOrder(cardNumber) {
 addToCart("fish")
 addToCart("apple")
 console.log(viewCart())
-placeOrder()
+placeOrder(12345)
 
