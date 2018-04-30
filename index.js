@@ -60,4 +60,4 @@ function placeOrder(cardNumber) {
 
 addToCart("fish")
 
-viewCart()
+console.log(viewCart())
