@@ -51,8 +51,8 @@ function removeFromCart(item) {
     } else {
       console.log("No Match")
     }
-    return
   }
+  return
 }
 
 function placeOrder(cardNumber) {
