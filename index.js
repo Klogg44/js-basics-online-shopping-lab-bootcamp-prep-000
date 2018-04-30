@@ -46,13 +46,11 @@ function removeFromCart(item) {
   for (let i=0; i<cart.length; i++) {
     console.log(cart[i].itemName)
     if (cart[i].itemName === item) {
-      console.log("Match")
       cart.splice(i,1)
-    } else {
-      console.log("No Match")
+      return
     }
   }
-  return
+  return "That item is not in your cart."
 }
 
 function placeOrder(cardNumber) {
@@ -64,6 +62,6 @@ addToCart("apple")
 
 console.log(viewCart())
 
-removeFromCart("apple")
+removeFromCart("eggs")
 
 console.log(viewCart())
